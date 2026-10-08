@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-gateway",
+  "version": "1.0.0",
+  "description": "Self-hosted WhatsApp Channels gateway (Whapi.Cloud-compatible API subset) for the Wanderlust admin portal",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "baileys": "7.0.0-rc14",
+    "express": "^5.2.1",
+    "jimp": "^1.6.1",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4"
+  }
+}

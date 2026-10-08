@@ -1,0 +1,4 @@
+node_modules/
+# Admin password, API tokens and WhatsApp login sessions — never commit.
+data/
+*.log
